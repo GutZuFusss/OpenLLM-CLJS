@@ -46,7 +46,7 @@ dependencies = [
     "typing_extensions",
     "GitPython",
     "cuda-python;platform_system!=\"Darwin\"",
-    "bitsandbytes<0.42",
+    "bitsandbytes<0.43",
 ]
 description = 'OpenLLM: Operating LLMs in production'
 dynamic = ["version", "readme"]
