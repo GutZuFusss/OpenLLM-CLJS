@@ -122,7 +122,7 @@ jobs:
       - name: Extract metadata tags and labels on PRs
         if: github.event_name == 'pull_request'
         id: meta-pr
-        uses: docker/metadata-action@v5.4.0
+        uses: docker/metadata-action@v5.5.0
         with:
           images: |
             public.ecr.aws/y5w8i4y6/bentoml/openllm
@@ -133,7 +133,7 @@ jobs:
       - name: Extract metadata tags and labels for main, release or tag
         if: github.event_name != 'pull_request'
         id: meta
-        uses: docker/metadata-action@v5.4.0
+        uses: docker/metadata-action@v5.5.0
         with:
           flavor: |
             latest=auto
