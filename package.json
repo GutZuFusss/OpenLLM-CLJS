@@ -17,6 +17,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "turbo": "^1.9.3"
+    "turbo": "^2.0.11"
   }
 }
